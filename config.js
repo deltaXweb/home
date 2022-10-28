@@ -58,7 +58,8 @@ setCarousel(config.DB.CAROUSELS);
 
 
 function verPath(path) {
-    if (path.substring(1,path.indexOf('.')+1) == "index") return "Home";
+    console.log(path);
+    if (path.substring(1,path.indexOf('.')) == "index") return "Home";
     else {
         let c = 0;
         let lastSlash = 0;
