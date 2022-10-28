@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+--headerFont:'Ubuntu', sans-serif;
+}
+
+
+.header-title{
+  font-family: var(--headerFont);
+}
